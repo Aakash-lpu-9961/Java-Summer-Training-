@@ -26,6 +26,10 @@ public class RecievingInputFromUser {
             y=sc.nextBigDecimal();
             System.out.println(y);
 
+            System.out.println("Enter the number : ");
+            boolean b1 = sc.hasNextInt();
+            System.out.println(b1);
+
         }
     }
 
@@ -42,4 +46,5 @@ public class RecievingInputFromUser {
 *       nextShort()
 *       nextBigInteger()
 *       nextBigDecimal()
+*       hasNextInt()    - return boolean
 * */
