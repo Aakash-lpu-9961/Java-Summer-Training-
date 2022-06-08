@@ -1,7 +1,4 @@
 package com.company;
-import com.sun.source.tree.CaseTree;
-
-import java.util.Calendar;
 import java.util.Scanner;
 
 public class Switch_Case {
