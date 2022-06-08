@@ -1,4 +1,7 @@
 package com.company;
+import com.sun.source.tree.CaseTree;
+
+import java.util.Calendar;
 import java.util.Scanner;
 
 public class Switch_Case {
@@ -25,8 +28,27 @@ public class Switch_Case {
             default:
                 System.out.println("Not Found");
                 break;
-
         }
+        System.out.println("Out of the scope of switch");
+
+        System.out.println("Switch case using char variable");
+
+        char var='A';
+        switch (var){
+            case 'A':
+                System.out.println("A");
+                break;
+            case 'B':
+                System.out.println("B");
+                break;
+            case 'C':
+                System.out.println("D");
+                break;
+            default:
+                System.out.println("Not Found");
+                break;
+        }
+        System.out.println("Out of Scope");
 
 
     }
