@@ -22,10 +22,5 @@ public class Arrays_Java {
         int[] marks2 = {20,30,40,50,60,70,80,90,100};   // Another method of Array declaration
         int value = marks2[6];
         System.out.println(value);
-
-
-
-
-
     }
 }
