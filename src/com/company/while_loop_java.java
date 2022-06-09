@@ -9,5 +9,9 @@ public class while_loop_java {
             System.out.println("This is while loop "+"\t");
             count++;
         }
+        while (true)
+        {
+            System.out.println("I am an Infinite While Loop");
+        }
     }
 }
