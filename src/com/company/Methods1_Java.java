@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class Methods1_Java {
 //    Methods function in Java
+
+//    if we write static keyword then we don't have to make object for this method we can directly access it
     static int logic()
     {
         int b;
@@ -11,6 +13,7 @@ public class Methods1_Java {
 
     }
 
+//    if we not write static keyword then we have to make object of this class and by object we have to access
     int logic1(int x, int y)
     {
         int z;
