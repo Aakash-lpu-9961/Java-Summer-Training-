@@ -16,6 +16,16 @@ public class Practice01_Program_Java {
         }
         System.out.println("Maximum Element is : "+ max);
 
+        int min = num[0];
+        for (int j=1;j<num.length;j++)
+        {
+            if (num[j]<min)
+            {
+                min = num[j];
+            }
+        }
+        System.out.println("Minimum Element is :"+min);
+
 
     }
 }
